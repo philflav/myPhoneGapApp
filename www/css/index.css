@@ -38,7 +38,9 @@ body {
     text-transform:uppercase;
     width:100%;
 }
-
+.green_back {
+    background-color: darkgreen ;
+}
 /* Portrait layout (default) */
 .app {
     background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
@@ -104,10 +106,17 @@ h1 {
 }
  
 .blink {
-    animation:fade 3000ms infinite;
-    -webkit-animation:fade 3000ms infinite;
+    animation:fade 2000ms infinite;
+    -webkit-animation:fade 1200ms infinite;
 }
-.big_button {
-    font-size: 4em;
-    background-color: #ffbbbb;
+.big_button, a:link,{
+    font-size: 1.9em;
+    color: #ffffff;
+    background-color: darkgreen;
+}
+.a:visited{
+    background-color: lightgreen;
+}
+.double_space{
+    line-height: 2.5em;
 }
